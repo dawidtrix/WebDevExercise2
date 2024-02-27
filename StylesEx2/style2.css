@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+body {
+  font-family: "Quicksand", sans-serif;
+  background-image: linear-gradient(#DBA8A8 -175%, #f3f3f3 35%, #f3f3f3 65%, #DBA8A8 175%);
+  background-size: 100% 500%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0%;
+  padding: 0%;
+}
+
+.MenuBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background: -webkit-linear-gradient(0deg, #DBA8A8 5%, #f3f3f3 50%, #f3f3f3 100%);
+  filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+  margin: 0%;
+  margin-bottom: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+h1 {
+  color: #6C3131;
+}
+
+.MenuButton {
+  border-style: solid;
+  padding: 10px;
+  border-width: 2px 2px;
+  border-left-width: 10px;
+  color: #BB6261;
+  text-decoration: none;
+  font-size: large;
+  border-radius: 1px;
+  background: -webkit-linear-gradient(0deg, #DBA8A8 -100%, #f3f3f3 0%);
+}
+
+.MenuButton:hover {
+  border-style: solid;
+  padding: 10px;
+  border-width: 2px 2px;
+  border-left-width: 10px;
+  color: #7E3939;
+  text-decoration: none;
+  font-size: large;
+  border-radius: 1px;
+  animation-name: example;
+  animation-duration: 1s;
+}
+
+@keyframes example {
+  from {
+    background: -webkit-linear-gradient(0deg, #DBA8A8 -1%, #f3f3f3 0%);
+  }
+  to {
+    background: -webkit-linear-gradient(0deg, #DBA8A8 -1%, #f3f3f3 100%);
+  }
+}/*# sourceMappingURL=style2.css.map */
