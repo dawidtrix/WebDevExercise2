@@ -1,13 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 body {
-  font-family: "Quicksand", sans-serif;
-  background-image: linear-gradient(#DBA8A8 -175%, #f3f3f3 35%, #f3f3f3 65%, #DBA8A8 175%);
-  background-size: 100% 500%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0%;
-  padding: 0%;
+  background-image: url(/Photos/HexaBackgroundWidth.png);
+  background-attachment: fixed;
+}
+
+.taniec {
+  width: auto;
+  height: 2000px;
+}
+
+.input-group {
+  background-color: 255;
+  color: #00ff2a;
 }
 
 .MenuBox {
@@ -17,8 +21,8 @@ body {
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-  background: -webkit-linear-gradient(0deg, #DBA8A8 5%, #f3f3f3 50%, #f3f3f3 100%);
-  filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+  background: -webkit-linear-gradient(0deg, rgba(0, 238, 255, 0.631372549) 5%, #181818 50%, #181818 100%);
+  box-shadow: 0px 0px 10px black;
   margin: 0%;
   margin-bottom: 3%;
   padding-left: 2%;
@@ -34,11 +38,11 @@ h1 {
   padding: 10px;
   border-width: 2px 2px;
   border-left-width: 10px;
+  border-right-width: 10px;
   color: #BB6261;
   text-decoration: none;
   font-size: large;
   border-radius: 1px;
-  background: -webkit-linear-gradient(0deg, #DBA8A8 -100%, #f3f3f3 0%);
 }
 
 .MenuButton:hover {
@@ -46,19 +50,24 @@ h1 {
   padding: 10px;
   border-width: 2px 2px;
   border-left-width: 10px;
+  border-right-width: 10px;
   color: #7E3939;
   text-decoration: none;
   font-size: large;
   border-radius: 1px;
+  box-shadow: 2px 2px 2px black;
   animation-name: example;
-  animation-duration: 1s;
+  animation-duration: 0.2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 @keyframes example {
-  from {
-    background: -webkit-linear-gradient(0deg, #DBA8A8 -1%, #f3f3f3 0%);
+  0% {
+    background: #181818;
   }
-  to {
-    background: -webkit-linear-gradient(0deg, #DBA8A8 -1%, #f3f3f3 100%);
+  100% {
+    background: rgba(0, 238, 255, 0.631372549);
   }
-}/*# sourceMappingURL=style2.css.map */
+}
+@keyframes old {}/*# sourceMappingURL=style2.css.map */
