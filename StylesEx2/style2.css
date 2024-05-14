@@ -58,32 +58,43 @@ nav {
 }
 
 .MenuButton {
-  border-style: solid;
-  padding: 1em;
-  border-width: 2px 2px;
-  border-left-width: 10px;
-  border-right-width: 10px;
-  color: #00becc;
-  text-decoration: none;
-  font-size: large;
-  border-radius: 1px;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #2c9caf;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #2c9caf;
 }
 
 .MenuButton:hover {
-  border-style: solid;
-  padding: 10px;
-  border-width: 2px 2px;
-  border-left-width: 10px;
-  border-right-width: 10px;
-  color: #005f66;
-  text-decoration: none;
-  font-size: large;
-  border-radius: 1px;
-  box-shadow: 2px 2px 2px black;
-  animation-name: example;
-  animation-duration: 0.2s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #70bdca;
+  box-shadow: 4px 5px 17px -4px #268391;
+}
+
+.MenuButton::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #2c9caf;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.MenuButton:hover::before {
+  width: 250%;
 }
 
 @keyframes example {
