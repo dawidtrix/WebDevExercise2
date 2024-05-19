@@ -16,7 +16,7 @@ body {
   background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 100%);
 }
 
-.taniec {
+.sizetest {
   width: auto;
   height: 2000px;
 }
@@ -99,6 +99,20 @@ nav {
 
 .MenuButton:hover::before {
   width: 250%;
+}
+
+#introductionWindow {
+  width: auto;
+  height: 500px;
+  border-radius: 5px;
+  outline: 2px solid #2c9caf;
+  font-size: 150px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #00becc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .row {
