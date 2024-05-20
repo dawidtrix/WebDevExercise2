@@ -122,7 +122,25 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+  }
+
+  .doubleWindowContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+
+  .informationWindow {
+    height: 500px;
+    width: 49%;
+    outline: 2px solid #2c9caf;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $blue4;
+    letter-spacing: 5px;
   }
   
   .row {
