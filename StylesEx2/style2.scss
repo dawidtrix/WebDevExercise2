@@ -143,6 +143,7 @@ nav {
     color: $blue4;
     letter-spacing: 5px;
     padding: 2%;
+
   }
   
   .column {
@@ -165,6 +166,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   .row {
