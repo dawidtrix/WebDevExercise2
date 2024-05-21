@@ -106,7 +106,7 @@ nav {
   height: 500px;
   border-radius: 5px;
   outline: 2px solid #2c9caf;
-  font-size: 150px;
+  font-size: 700%;
   letter-spacing: 5px;
   text-align: center;
   color: #00becc;
@@ -123,15 +123,39 @@ nav {
 }
 
 .informationWindow {
-  height: 500px;
+  height: auto;
   width: 49%;
   outline: 2px solid #2c9caf;
   border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   color: #00becc;
   letter-spacing: 5px;
+  padding: 2%;
+}
+
+.column {
+  flex-direction: column;
+}
+
+#skills {
+  font-size: 200%;
+  letter-spacing: 5px;
+  margin-bottom: 5%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#skillsList {
+  font-size: large;
+}
+
+.centeredContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .row {
