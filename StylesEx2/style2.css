@@ -163,6 +163,10 @@ nav {
   outline: 2px solid #2c9caf;
 }
 
+#noOutline {
+  outline: 0px;
+}
+
 @keyframes example {
   0% {
     background: #181818;

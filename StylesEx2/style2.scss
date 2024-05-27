@@ -172,6 +172,10 @@ nav {
   .row {
     outline: 2px solid #2c9caf;
   }
+
+  #noOutline {
+    outline: 0px;
+  }
 @keyframes example {
     0% {background: $grey0;}
     100% {background: $blue0;}
