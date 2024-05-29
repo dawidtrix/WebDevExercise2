@@ -3,7 +3,10 @@ function PopupMonster() {
     alert("Nice to meet you " + name);
     let age = prompt("Hur gammal är du?");
     if(age < 18){
-        alert("Grow up!");
+        for(let i = 0; i < age; i++){
+            alert("Grow up!");
+        }
+        
     }
     else {
         alert("Welcome to my nice webpage.");
